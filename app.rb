@@ -9,4 +9,8 @@ class App < Sinatra::Base
 	get '/info' do
 		erb :info
 	end
+
+	get '/request' do
+		erb :index
+	end
 end
